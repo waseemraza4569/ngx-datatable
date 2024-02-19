@@ -19,7 +19,7 @@ import { ColumnMode } from 'projects/swimlane/ngx-datatable/src/public-api';
       <ngx-datatable
         class="material"
         [rows]="rows"
-        [columns]="[{ name: 'Name' }, { name: 'Gender' }, { name: 'Company' }]"
+        [columns]="[{ name: 'Name' }, { name: 'Gender' }, { name: 'Company' },{ name: 'Company' },{ name: 'Company' },{ name: 'Company' }]"
         [columnMode]="ColumnMode.force"
         [headerHeight]="50"
         [footerHeight]="50"
